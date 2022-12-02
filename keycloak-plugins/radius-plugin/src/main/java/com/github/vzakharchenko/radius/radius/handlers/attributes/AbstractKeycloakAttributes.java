@@ -108,7 +108,7 @@ public abstract class AbstractKeycloakAttributes<KEYCLOAK_TYPE> implements Keycl
             boolean r = !conditionalAttributes(REJECT_CONDITIONS,
                     attributeName, values, false) &&
                     conditionalAttributes(ACCEPT_CONDITION,
-                            attributeName, values, true);
+                            attributeName, values, false);
             if (!r) {
                 radiusUserInfoGetter.getBuilder().forceReject();
                 return false;
