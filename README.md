@@ -1,3 +1,5 @@
+This fork defaults to reject if no rule is found
+---
 # Embedded Radius Server in [Keycloak](https://www.keycloak.org/) SSO
 [![CircleCI](https://circleci.com/gh/vzakharchenko/keycloak-radius-plugin/tree/master.svg?style=svg)](https://circleci.com/gh/vzakharchenko/keycloak-radius-plugin/tree/master)
 ![Java CI with Maven](https://github.com/vzakharchenko/keycloak-radius-plugin/workflows/Java%20CI%20with%20Maven/badge.svg)
